@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightpink; /*light pink background */
+    color: #333;               /*dark grey text */
+    margin: 0;                   /*remove default spacing */
+    padding: 0;
+}
+
+h1 {
+    background-color: darksalmon;
+    text-align: left;
+    text-decoration: none;
+
+}
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: palevioletred;    
+}
+
+ul li {
+    float: left;
+
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+ul li a:hover {
+    background-color: #111111;
+
+}
+
+main {
+    padding: 20px;
+    max-width:  1000px;
+    margin: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*==== BLOG PAGE ONLY ==== */
+.Services-grid {
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr); /*4 equal colums */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
